@@ -4,6 +4,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import routes from "routes";
 import { Login } from "pages";
 import theme from "theme";
+import "@fontsource/raleway/400.css";
 
 function App() {
   const router = createBrowserRouter([
