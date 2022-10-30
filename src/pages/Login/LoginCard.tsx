@@ -36,7 +36,7 @@ const LoginCard = () => {
       borderBottomLeftRadius={[16, 16, 0]}
       flexDirection={"column"}
       justifyContent={"center"}
-      py={[10, 10, 0]}
+      py={[10, 10, 20]}
     >
       <Heading mb={[10, 10, 20]}>Login</Heading>
 
@@ -64,7 +64,7 @@ const LoginCard = () => {
             type="submit"
             isLoading={isSubmitting}
             bg={"loginBg.100"}
-            w={["100%", "100%", "60%"]}
+            w={["100%", "100%", "100%", "60%"]}
           >
             Submit
           </Button>
