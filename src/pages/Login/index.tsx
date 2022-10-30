@@ -13,7 +13,7 @@ const Login = () => {
       px={[5, 50, 100, 200, 300]}
       flexWrap={"wrap"}
     >
-      <Flex flexDirection={["column", "column", "row"]}>
+      <Flex flexDirection={["column", "column", "row"]} py={10}>
         <RegisterCard />
         <LoginCard />
       </Flex>
