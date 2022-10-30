@@ -14,8 +14,8 @@ const RegisterCard = () => {
       borderBottomLeftRadius={[0, 0, 16]}
       borderTopLeftRadius={16}
       borderTopRightRadius={[16, 16, 0]}
-      bgImage={
-        'linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)), url("./Eugène_Delacroix_-_La_liberté_guidant_le_peuple.jpg")'
+      background={
+        'linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)), url("./Eugène_Delacroix_-_La_liberté_guidant_le_peuple.jpg") center'
       }
       bgSize={"cover"}
       color={"White"}

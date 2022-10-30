@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8762a3c7-4f28-4d84-a9ac-6d98872c2b09" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/RegisterCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/RegisterCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667146942926</updated>
       <workItem from="1667146944275" duration="508000" />
-      <workItem from="1667147467466" duration="11954000" />
+      <workItem from="1667147467466" duration="13122000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1667147920654</created>
@@ -108,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667159363981</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="padding fix">
+      <created>1667159572705</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667159572705</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +139,8 @@
     <MESSAGE value="login form" />
     <MESSAGE value="font" />
     <MESSAGE value="body font" />
-    <option name="LAST_COMMIT_MESSAGE" value="body font" />
+    <MESSAGE value="padding fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="padding fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
