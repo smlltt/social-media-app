@@ -1,23 +1,29 @@
 import React from "react";
-import { Flex } from "@chakra-ui/react";
-import RegisterCard from "./RegisterCard";
 import LoginCard from "./LoginCard";
+import { Hero } from "components";
+import routes from "routes";
+import { AuthPagesTemplate } from "templates";
 
 const Login = () => {
   return (
-    <Flex
-      bg={"loginBg.100"}
-      minHeight={"100vh"}
-      justifyContent={"center"}
-      alignItems={["flex", "flex", "center"]}
-      px={[5, 50, 100, 200, 300]}
-      flexWrap={"wrap"}
-    >
-      <Flex flexDirection={["column", "column", "row"]} py={10}>
-        <RegisterCard />
-        <LoginCard />
-      </Flex>
-    </Flex>
+    <AuthPagesTemplate>
+      <Hero
+        borderBottomLeftRadius={[0, 0, 16]}
+        borderTopLeftRadius={16}
+        borderTopRightRadius={[16, 16, 0]}
+        backgroundImage={
+          "https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600g"
+        }
+        title={"Hello world."}
+        mainContent={
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan elit vel molestie commodo. Nulla sed ornare lorem. Fusce ut odio tincidunt, egestas sapien ut, laoreet mi."
+        }
+        question={"Don't you have an account?"}
+        buttonContent={"Register"}
+        buttonLink={routes.register}
+      />
+      <LoginCard />
+    </AuthPagesTemplate>
   );
 };
 

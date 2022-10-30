@@ -7,11 +7,12 @@ import useValidationSchema from "./validation";
 import { AuthFormCardTemplate } from "templates";
 
 interface IFormInputs {
+  username: string;
   email: string;
   password: number;
 }
 
-const LoginCard = () => {
+const RegisterCard = () => {
   const {
     register,
     handleSubmit,
@@ -23,13 +24,22 @@ const LoginCard = () => {
 
   return (
     <AuthFormCardTemplate
-      title={"Login"}
-      borderBottomRightRadius={16}
-      borderTopRightRadius={[0, 0, 16]}
-      borderBottomLeftRadius={[16, 16, 0]}
+      title={"Register"}
+      borderBottomLeftRadius={[0, 0, 16]}
+      borderTopRightRadius={[16, 16, 0]}
+      borderTopLeftRadius={16}
     >
       <form onSubmit={handleSubmit(onSubmit)}>
         <VStack alignItems={"start"} spacing={10}>
+          <FormControl isInvalid={!!errors.username}>
+            <Input
+              id={"username"}
+              placeholder={"username"}
+              {...register("username")}
+              pb={3}
+            />
+            <FormErrorMessage>{errors?.username?.message}</FormErrorMessage>
+          </FormControl>
           <FormControl isInvalid={!!errors.email}>
             <Input
               id={"email"}
@@ -62,4 +72,4 @@ const LoginCard = () => {
   );
 };
 
-export default LoginCard;
+export default RegisterCard;
