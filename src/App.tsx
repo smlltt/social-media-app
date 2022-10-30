@@ -5,6 +5,7 @@ import routes from "routes";
 import { Login } from "pages";
 import theme from "theme";
 import "@fontsource/raleway/400.css";
+import "@fontsource/open-sans/400.css";
 
 function App() {
   const router = createBrowserRouter([
