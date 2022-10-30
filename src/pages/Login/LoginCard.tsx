@@ -2,13 +2,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { Flex, Heading, VStack } from "@chakra-ui/react";
-import {
-  FormErrorMessage,
-  FormLabel,
-  FormControl,
-  Input,
-  Button,
-} from "@chakra-ui/react";
+import { FormErrorMessage, FormControl, Input, Button } from "@chakra-ui/react";
 import useValidationSchema from "./validation";
 
 interface IFormInputs {
@@ -43,20 +37,20 @@ const LoginCard = () => {
       <form onSubmit={handleSubmit(onSubmit)}>
         <VStack alignItems={"start"} spacing={10}>
           <FormControl isInvalid={!!errors.email}>
-            <FormLabel htmlFor="email">email</FormLabel>
             <Input
               id={"email"}
               placeholder={"example@email.com"}
               {...register("email")}
+              pb={3}
             />
             <FormErrorMessage>{errors?.email?.message}</FormErrorMessage>
           </FormControl>
           <FormControl isInvalid={!!errors.password?.message}>
-            <FormLabel htmlFor="password">password</FormLabel>
             <Input
               id={"password"}
               placeholder={"password"}
               {...register("password")}
+              pb={3}
             />
             <FormErrorMessage>{errors.password?.message}</FormErrorMessage>
           </FormControl>

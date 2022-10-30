@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8762a3c7-4f28-4d84-a9ac-6d98872c2b09" name="Changes" comment="">
+    <list default="true" id="8762a3c7-4f28-4d84-a9ac-6d98872c2b09" name="Changes" comment="styled input">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login/RegisterCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/RegisterCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/LoginCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/LoginCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667146942926</updated>
       <workItem from="1667146944275" duration="508000" />
-      <workItem from="1667147467466" duration="13122000" />
+      <workItem from="1667147467466" duration="13601000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1667147920654</created>
@@ -116,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667159572705</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="styled input">
+      <created>1667160771036</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667160771036</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +146,8 @@
     <MESSAGE value="font" />
     <MESSAGE value="body font" />
     <MESSAGE value="padding fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="padding fix" />
+    <MESSAGE value="styled input" />
+    <option name="LAST_COMMIT_MESSAGE" value="styled input" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
