@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8762a3c7-4f28-4d84-a9ac-6d98872c2b09" name="Changes" comment="private route, navbar">
-      <change afterPath="$PROJECT_DIR$/src/components/Nav/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NavSmallScreens/Section.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NavSmallScreens/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/AuthenticatedTemplate/index.tsx" afterDir="false" />
+    <list default="true" id="8762a3c7-4f28-4d84-a9ac-6d98872c2b09" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Eugène_Delacroix_-_La_liberté_guidant_le_peuple.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +65,7 @@
       <updated>1667146942926</updated>
       <workItem from="1667146944275" duration="508000" />
       <workItem from="1667147467466" duration="16657000" />
-      <workItem from="1667222478003" duration="7711000" />
+      <workItem from="1667222478003" duration="8302000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1667147920654</created>
@@ -143,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667161214146</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="private route, navbar">
+      <created>1667230508651</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667230508651</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
