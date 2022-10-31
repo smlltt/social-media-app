@@ -1,3 +1,5 @@
 import Hero from "./Hero";
+import Nav from "./Nav";
+import NavSmallScreens from "./NavSmallScreens";
 
-export { Hero };
+export { Hero, Nav, NavSmallScreens };
