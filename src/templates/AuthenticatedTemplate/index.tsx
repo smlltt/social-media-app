@@ -56,7 +56,9 @@ const AuthenticatedTemplate: FC<AuthenticatedTemplateProps> = ({
           displayMenuSmallScreens,
           "none",
         ]}
-        position={"sticky"}
+        // here position fixed is good, because I want the side bar out of the normal flow. I don't want it to push the dashboard's content anywhere
+        // compare with the comments to the LeftBar on big screens wrapper below
+        position={"fixed"}
         top={20}
         h={"calc(100vh - 80px)"}
         overflowY={"hidden"}
@@ -65,6 +67,7 @@ const AuthenticatedTemplate: FC<AuthenticatedTemplateProps> = ({
         }}
         sx={customScrollBarStyle}
         background={"white"}
+        w={["100%", "100%", "40%"]}
       >
         <NavSmallScreens />
       </Box>
@@ -79,9 +82,13 @@ const AuthenticatedTemplate: FC<AuthenticatedTemplateProps> = ({
             overflowY: "auto",
           }}
           sx={customScrollBarStyle}
+          // here position fixed does not achieve what we want, because position: fixed and position: absolute take elements out of the normal flow,
+          // so other element do not know that this box is there, so to speak. uncomment to see the effect
+          // position={"fixed"}
           position={"sticky"}
           top={20}
           h={"calc(100vh - 80px)"}
+          left={0}
         >
           <LeftBar />
         </Box>
