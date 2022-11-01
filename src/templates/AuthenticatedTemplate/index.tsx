@@ -67,7 +67,7 @@ const AuthenticatedTemplate: FC<AuthenticatedTemplateProps> = ({
         }}
         sx={customScrollBarStyle}
         background={"white"}
-        w={["100%", "100%", "40%"]}
+        w={["100%", "100%", "auto"]}
       >
         <NavSmallScreens />
       </Box>

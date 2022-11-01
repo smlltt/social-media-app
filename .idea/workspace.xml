@@ -145,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667317538697</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="left bar position sticky replaced with fixed">
+      <created>1667338203451</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667338203451</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +179,8 @@
     <MESSAGE value="styled input" />
     <MESSAGE value="private route, navbar" />
     <MESSAGE value="left bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="left bar" />
+    <MESSAGE value="left bar position sticky replaced with fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="left bar position sticky replaced with fixed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
