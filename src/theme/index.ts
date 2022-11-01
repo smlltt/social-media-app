@@ -1,13 +1,26 @@
 import { extendTheme } from "@chakra-ui/react";
 
+export const customScrollBarStyle = {
+  "::-webkit-scrollbar": {
+    width: 1,
+  },
+  "::-webkit-scrollbar-thumb": {
+    background: "gray.100",
+  },
+  "::-webkit-scrollbar-thumb:hover": {
+    background: "gray.200",
+  },
+};
+
 const theme = extendTheme({
   fonts: {
     heading: `'Raleway', sans-serif`,
     body: `'Open Sans', sans-serif`,
   },
   colors: {
-    loginBg: {
+    primary: {
       100: "#c1beff",
+      200: "#9691fe",
     },
   },
   components: {
@@ -30,6 +43,14 @@ const theme = extendTheme({
       defaultProps: {
         variant: null,
         size: null,
+      },
+    },
+    Button: {
+      variants: {
+        primary: {
+          background: "primary.200",
+          color: "White",
+        },
       },
     },
   },

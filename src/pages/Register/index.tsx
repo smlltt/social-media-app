@@ -1,6 +1,6 @@
 import React from "react";
 import { AuthPagesTemplate } from "templates";
-import { Hero } from "components";
+import { Hero } from "components/organisms";
 import routes from "routes";
 import RegisterCard from "./RegisterCard";
 

@@ -61,8 +61,8 @@ const RegisterCard = () => {
           <Button
             type="submit"
             isLoading={isSubmitting}
-            bg={"loginBg.100"}
             w={["100%", "100%", "100%", "60%"]}
+            variant={"primary"}
           >
             Submit
           </Button>

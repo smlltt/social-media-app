@@ -5,7 +5,64 @@ import { Box } from "@chakra-ui/react";
 const Home = () => {
   return (
     <AuthenticatedTemplate>
-      <Box>main content</Box>
+      <Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+        <Box>main content</Box>
+      </Box>
     </AuthenticatedTemplate>
   );
 };

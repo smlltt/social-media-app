@@ -8,7 +8,7 @@ interface AuthPagesTemplateProps {
 const AuthPagesTemplate: FC<AuthPagesTemplateProps> = ({ children }) => {
   return (
     <Flex
-      bg={"loginBg.100"}
+      bg={"primary.100"}
       minHeight={"100vh"}
       justifyContent={"center"}
       alignItems={["flex", "flex", "center"]}
