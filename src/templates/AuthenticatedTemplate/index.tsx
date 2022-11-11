@@ -1,6 +1,6 @@
 import React, { FC, ReactNode, useState } from "react";
 import { Box, Flex, Heading } from "@chakra-ui/react";
-import { Nav, NavSmallScreens, LeftBar } from "components/organisms";
+import { Nav, NavSmallScreens, LeftBar, RightBar } from "components/organisms";
 import { customScrollBarStyle } from "theme";
 import { Menu } from "react-feather";
 
@@ -92,9 +92,15 @@ const AuthenticatedTemplate: FC<AuthenticatedTemplateProps> = ({
         >
           <LeftBar />
         </Box>
-        {children}
-        <Box w={250} background={"red"}>
-          right bar
+        <Flex bg={"dashboardBg.100"} flexGrow={1} justifyContent={"center"}>
+          {children}
+        </Flex>
+        <Box
+          bg={"dashboardBg.100"}
+          w={"22%"}
+          display={["none", "none", "none", "block"]}
+        >
+          <RightBar />
         </Box>
       </Flex>
     </Box>

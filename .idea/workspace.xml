@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8762a3c7-4f28-4d84-a9ac-6d98872c2b09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/RightBar/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/AuthenticatedTemplate/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/AuthenticatedTemplate/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +70,8 @@
       <workItem from="1667146944275" duration="508000" />
       <workItem from="1667147467466" duration="16657000" />
       <workItem from="1667222478003" duration="8302000" />
+      <workItem from="1667376586543" duration="78000" />
+      <workItem from="1668169324627" duration="1079000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1667147920654</created>

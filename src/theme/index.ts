@@ -22,6 +22,9 @@ const theme = extendTheme({
       100: "#c1beff",
       200: "#9691fe",
     },
+    dashboardBg: {
+      100: "#EFEFEF",
+    },
   },
   components: {
     Input: {
