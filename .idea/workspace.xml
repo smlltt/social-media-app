@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8762a3c7-4f28-4d84-a9ac-6d98872c2b09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/RightBar/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/AvatarWithName/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/Card/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/RightBar/ActivitiesCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/RightBar/CardItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/RightBar/CardTemplate.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/RightBar/FriendsCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/RightBar/SuggestionsCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Nav/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Nav/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/RightBar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/RightBar/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/AuthenticatedTemplate/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/AuthenticatedTemplate/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/theme/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/index.ts" afterDir="false" />
     </list>
@@ -71,7 +79,8 @@
       <workItem from="1667147467466" duration="16657000" />
       <workItem from="1667222478003" duration="8302000" />
       <workItem from="1667376586543" duration="78000" />
-      <workItem from="1668169324627" duration="1079000" />
+      <workItem from="1668169324627" duration="1450000" />
+      <workItem from="1668247237551" duration="8536000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1667147920654</created>
@@ -157,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667338203451</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="dashboard background">
+      <created>1668170688133</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668170688133</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +201,8 @@
     <MESSAGE value="private route, navbar" />
     <MESSAGE value="left bar" />
     <MESSAGE value="left bar position sticky replaced with fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="left bar position sticky replaced with fixed" />
+    <MESSAGE value="dashboard background" />
+    <option name="LAST_COMMIT_MESSAGE" value="dashboard background" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

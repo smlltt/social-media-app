@@ -16,6 +16,7 @@ const AuthenticatedTemplate: FC<AuthenticatedTemplateProps> = ({
   const toggleMenuSmallScreens = () => {
     setSmallMenuVisible(!smallMenuVisible);
   };
+
   return (
     <Box>
       {/*  large screens nav */}
@@ -97,8 +98,17 @@ const AuthenticatedTemplate: FC<AuthenticatedTemplateProps> = ({
         </Flex>
         <Box
           bg={"dashboardBg.100"}
-          w={"22%"}
-          display={["none", "none", "none", "block"]}
+          w={"25%"}
+          display={["none", "none", "none", "none", "block"]}
+          position={"sticky"}
+          top={20}
+          h={"calc(100vh - 80px)"}
+          left={0}
+          overflowY={"hidden"}
+          _hover={{
+            overflowY: "auto",
+          }}
+          sx={customScrollBarStyle}
         >
           <RightBar />
         </Box>

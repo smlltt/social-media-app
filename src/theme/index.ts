@@ -25,6 +25,12 @@ const theme = extendTheme({
     dashboardBg: {
       100: "#EFEFEF",
     },
+    textPrimary: {
+      100: "#000000",
+    },
+    textSecondary: {
+      100: "#8f8f8f",
+    },
   },
   components: {
     Input: {

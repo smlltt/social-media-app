@@ -1,6 +1,7 @@
 import React from "react";
 import { Home, Moon, Grid, User, Mail, Bell, Search } from "react-feather";
-import { Avatar, Box, Flex, Heading, HStack, Input } from "@chakra-ui/react";
+import { Flex, Heading, HStack, Input } from "@chakra-ui/react";
+import { AvatarWithName } from "components/atoms";
 
 const Nav = () => {
   return (
@@ -27,15 +28,12 @@ const Nav = () => {
         <User />
         <Mail />
         <Bell />
-        <HStack>
-          <Avatar
-            name={"Jane Doe"}
-            src={
-              "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            }
-          />
-          <Box fontWeight={"semibold"}>Jane Doe</Box>
-        </HStack>
+        <AvatarWithName
+          name={"Jane Doe"}
+          avatar={
+            "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        />
       </HStack>
     </Flex>
   );
