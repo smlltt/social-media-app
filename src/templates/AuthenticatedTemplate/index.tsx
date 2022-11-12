@@ -1,8 +1,9 @@
 import React, { FC, ReactNode, useState } from "react";
-import { Box, Flex, Heading } from "@chakra-ui/react";
+import { Box, Flex, Heading, useColorModeValue } from "@chakra-ui/react";
 import { Nav, NavSmallScreens, LeftBar, RightBar } from "components/organisms";
 import { customScrollBarStyle } from "theme";
 import { Menu } from "react-feather";
+import { useCommonColors } from "hooks";
 
 interface AuthenticatedTemplateProps {
   children: ReactNode;
@@ -16,6 +17,11 @@ const AuthenticatedTemplate: FC<AuthenticatedTemplateProps> = ({
   const toggleMenuSmallScreens = () => {
     setSmallMenuVisible(!smallMenuVisible);
   };
+  const { mainBg } = useCommonColors();
+  const dashboardBg = useColorModeValue(
+    "dashboardBg.100",
+    "dashboardBgDark.100"
+  );
 
   return (
     <Box>
@@ -24,7 +30,7 @@ const AuthenticatedTemplate: FC<AuthenticatedTemplateProps> = ({
         display={["none", "none", "none", "block"]}
         position={"sticky"}
         top={0}
-        background={"White"}
+        background={mainBg}
       >
         <Nav />
       </Box>
@@ -40,7 +46,7 @@ const AuthenticatedTemplate: FC<AuthenticatedTemplateProps> = ({
         alignItems={"center"}
         position={"sticky"}
         top={0}
-        background={"White"}
+        background={mainBg}
         zIndex={1}
         display={["flex", "flex", "flex", "none"]}
       >
@@ -67,7 +73,7 @@ const AuthenticatedTemplate: FC<AuthenticatedTemplateProps> = ({
           overflowY: "auto",
         }}
         sx={customScrollBarStyle}
-        background={"white"}
+        background={mainBg}
         w={["100%", "100%", "auto"]}
       >
         <NavSmallScreens />
@@ -93,11 +99,11 @@ const AuthenticatedTemplate: FC<AuthenticatedTemplateProps> = ({
         >
           <LeftBar />
         </Box>
-        <Flex bg={"dashboardBg.100"} flexGrow={1} justifyContent={"center"}>
+        <Flex bg={dashboardBg} flexGrow={1} justifyContent={"center"}>
           {children}
         </Flex>
         <Box
-          bg={"dashboardBg.100"}
+          bg={dashboardBg}
           w={"25%"}
           display={["none", "none", "none", "none", "block"]}
           position={"sticky"}

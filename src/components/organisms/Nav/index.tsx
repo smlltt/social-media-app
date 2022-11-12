@@ -1,9 +1,10 @@
 import React from "react";
 import { Home, Moon, Grid, User, Mail, Bell, Search } from "react-feather";
-import { Flex, Heading, HStack, Input } from "@chakra-ui/react";
+import { Flex, Heading, HStack, Input, useColorMode } from "@chakra-ui/react";
 import { AvatarWithName } from "components/atoms";
 
 const Nav = () => {
+  const { toggleColorMode } = useColorMode();
   return (
     <Flex
       h={20}
@@ -16,7 +17,7 @@ const Nav = () => {
       <HStack spacing={30}>
         <Heading fontSize={24}>Social App</Heading>
         <Home />
-        <Moon />
+        <Moon onClick={toggleColorMode} />
         <Grid />
         <HStack>
           <Search />

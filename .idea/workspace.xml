@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8762a3c7-4f28-4d84-a9ac-6d98872c2b09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/AvatarWithName/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/Card/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/RightBar/ActivitiesCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/RightBar/CardItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/RightBar/CardTemplate.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/RightBar/FriendsCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/RightBar/SuggestionsCard.tsx" afterDir="false" />
+    <list default="true" id="8762a3c7-4f28-4d84-a9ac-6d98872c2b09" name="Changes" comment="color mode">
+      <change afterPath="$PROJECT_DIR$/src/hooks/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useCommonColors.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Hero/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Hero/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/organisms/Nav/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Nav/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/RightBar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/RightBar/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/NavSmallScreens/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/NavSmallScreens/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/RightBar/CardTemplate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/RightBar/CardTemplate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/AuthFormCardTemplate/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/AuthFormCardTemplate/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/AuthenticatedTemplate/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/AuthenticatedTemplate/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/theme/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/index.ts" afterDir="false" />
     </list>
@@ -27,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -80,7 +78,9 @@
       <workItem from="1667222478003" duration="8302000" />
       <workItem from="1667376586543" duration="78000" />
       <workItem from="1668169324627" duration="1450000" />
-      <workItem from="1668247237551" duration="8536000" />
+      <workItem from="1668247237551" duration="9480000" />
+      <workItem from="1668257073097" duration="1300000" />
+      <workItem from="1668275767571" duration="3804000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1667147920654</created>
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668170688133</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="right bar">
+      <created>1668255845137</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668255845137</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +209,10 @@
     <MESSAGE value="left bar" />
     <MESSAGE value="left bar position sticky replaced with fixed" />
     <MESSAGE value="dashboard background" />
-    <option name="LAST_COMMIT_MESSAGE" value="dashboard background" />
+    <MESSAGE value="right bard" />
+    <MESSAGE value="right bar" />
+    <MESSAGE value="color mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="color mode" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

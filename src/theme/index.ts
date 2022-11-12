@@ -25,6 +25,9 @@ const theme = extendTheme({
     dashboardBg: {
       100: "#EFEFEF",
     },
+    dashboardBgDark: {
+      100: "#3B3B3B",
+    },
     textPrimary: {
       100: "#000000",
     },

@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import { Box, Button, Heading, StackProps, VStack } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import { useCommonColors } from "../../../hooks";
 
 interface HeroProps extends StackProps {
   backgroundImage: string;
@@ -20,6 +21,7 @@ const Hero: FC<HeroProps> = ({
   buttonLink,
   ...rest
 }) => {
+  const { mainBg, text } = useCommonColors();
   return (
     <VStack
       w={["100%", "100%", "50%"]}
@@ -40,7 +42,7 @@ const Hero: FC<HeroProps> = ({
       <Box fontWeight={"semibold"}>{mainContent}</Box>
       <Box>{question}</Box>
 
-      <Button color={"Black"} w={["100%", "100%", "100%", "60%"]}>
+      <Button w={["100%", "100%", "100%", "60%"]} bg={mainBg} color={text}>
         <Link to={buttonLink} style={{ width: "100%" }}>
           {buttonContent}
         </Link>

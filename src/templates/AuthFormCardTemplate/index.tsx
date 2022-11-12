@@ -1,5 +1,6 @@
 import React, { FC, ReactNode } from "react";
 import { Flex, FlexProps, Heading } from "@chakra-ui/react";
+import { useCommonColors } from "hooks";
 
 interface AuthFormCardTemplateProps extends FlexProps {
   title: string;
@@ -11,11 +12,12 @@ const AuthFormCardTemplate: FC<AuthFormCardTemplateProps> = ({
   children,
   ...rest
 }) => {
+  const { mainBg } = useCommonColors();
   return (
     <Flex
       px={10}
       w={["100%", "100%", "50%"]}
-      bg={"White"}
+      bg={mainBg}
       {...rest}
       flexDirection={"column"}
       justifyContent={"center"}
