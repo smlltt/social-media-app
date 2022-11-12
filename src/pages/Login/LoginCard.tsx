@@ -5,6 +5,9 @@ import { VStack } from "@chakra-ui/react";
 import { FormErrorMessage, FormControl, Input, Button } from "@chakra-ui/react";
 import useValidationSchema from "./validation";
 import { AuthFormCardTemplate } from "templates";
+import { useAuth } from "hooks";
+import routes from "routes";
+import { useNavigate } from "react-router-dom";
 
 interface IFormInputs {
   email: string;
@@ -19,7 +22,13 @@ const LoginCard = () => {
   } = useForm<IFormInputs>({
     resolver: yupResolver(useValidationSchema()),
   });
-  const onSubmit = (data: IFormInputs) => console.log(data);
+  const navigate = useNavigate();
+  const { setUser } = useAuth();
+  //TODO logic to be updated when backend available
+  const onSubmit = (data: IFormInputs) => {
+    setUser({ email: data.email });
+    navigate(routes.home);
+  };
 
   return (
     <AuthFormCardTemplate

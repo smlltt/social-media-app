@@ -12,7 +12,13 @@ const FriendsCard = () => {
   return (
     <CardTemplate title={"Online"}>
       {onlineFriends.map(({ name, avatar }, index) => (
-        <CardItem index={index} name={name} avatar={avatar} showOnlineStatus />
+        <CardItem
+          index={index}
+          name={name}
+          avatar={avatar}
+          showOnlineStatus
+          key={index}
+        />
       ))}
     </CardTemplate>
   );

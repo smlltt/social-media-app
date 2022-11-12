@@ -5,12 +5,15 @@ import theme from "theme";
 import "@fontsource/raleway/400.css";
 import "@fontsource/open-sans/400.css";
 import router from "router";
+import { AuthProvider } from "hooks";
 
 function App() {
   return (
-    <ChakraProvider theme={theme}>
-      <RouterProvider router={router} />
-    </ChakraProvider>
+    <AuthProvider>
+      <ChakraProvider theme={theme}>
+        <RouterProvider router={router} />
+      </ChakraProvider>
+    </AuthProvider>
   );
 }
 

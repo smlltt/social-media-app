@@ -15,7 +15,7 @@ const ActivitiesCard = () => {
   return (
     <CardTemplate title={"Latest activities"}>
       {latestActivities.map(({ name, avatar, activity, time }, index) => (
-        <CardItem index={index} name={name} avatar={avatar}>
+        <CardItem index={index} name={name} avatar={avatar} key={index}>
           <HStack flexGrow={1}>
             <Flex flexGrow={1} pl={1}>
               {activity}

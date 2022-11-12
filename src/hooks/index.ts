@@ -1,3 +1,4 @@
 import useCommonColors from "./useCommonColors";
+import { AuthProvider, useAuth } from "./useAuth";
 
-export { useCommonColors };
+export { useCommonColors, AuthProvider, useAuth };

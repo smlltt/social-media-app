@@ -14,7 +14,7 @@ const SuggestionsCard = () => {
   return (
     <CardTemplate title={"Suggestions for you"}>
       {suggestedForYou.map(({ name, avatar }, index) => (
-        <CardItem index={index} name={name} avatar={avatar}>
+        <CardItem index={index} name={name} avatar={avatar} key={index}>
           <HStack flexWrap={"wrap"} justifyContent={"space-around"}>
             <Box py={1}>
               <Button variant={"primary"}>follow</Button>
